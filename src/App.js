@@ -1,10 +1,11 @@
-import './App.css';
+import Body from "./components/Body";
+import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
   return (
-    <div className="text-lxl font-bold text-center mt-20">
-      
-    </div>
+    <LanguageProvider>
+      <Body />
+    </LanguageProvider>
   );
 }
 export default App;
