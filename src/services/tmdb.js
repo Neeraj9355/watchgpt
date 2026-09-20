@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.themoviedb.org/3";
+const BASE_URL = process.env.REACT_APP_TMDB_BASE_URL;
 
 const ACCESS_TOKEN = process.env.REACT_APP_TMDB_ACCESS_TOKEN;
 

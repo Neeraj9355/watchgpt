@@ -3,7 +3,6 @@ import { createContext, useContext, useState } from "react";
 const translations = {
   en: {
     language: "Hindi",
-    signIn: "Sign In",
     home: "Home",
     browse: "Browse",
     heroTitle: "Laughs. Tears. Thrills.",
@@ -33,10 +32,17 @@ const translations = {
     footerLinks: ["FAQ", "Help Centre", "Account", "Media Centre", "Investor Relations", "Jobs", "Ways to Watch", "Terms of Use", "Privacy", "Cookie Preferences", "Corporate Information", "Contact Us"],
     country: "WatchGPT India",
     disclaimer: "This page is protected by reCAPTCHA to ensure you are not a bot.",
+    signUp: "Sign Up",
+    signIn: "Sign In",
+    fullName: "Full name",
+    createPassword: "Create a password",
+    enterPassword: "Enter your password",
+    confirmPassword: "Confirm your password",
+    alreadyHaveAccount: "Already have an account?",
+    newToWatchGPT: "New to WatchGPT?",
   },
   hi: {
     language: "English",
-    signIn: "साइन इन",
     home: "होम",
     browse: "ब्राउज़ करें",
     heroTitle: "हंसी। आंसू। रोमांच।",
@@ -66,6 +72,14 @@ const translations = {
     footerLinks: ["FAQ", "सहायता केंद्र", "अकाउंट", "मीडिया केंद्र", "निवेशक संबंध", "नौकरियां", "देखने के तरीके", "उपयोग की शर्तें", "गोपनीयता", "कुकी प्राथमिकताएं", "कॉर्पोरेट जानकारी", "संपर्क करें"],
     country: "WatchGPT इंडिया",
     disclaimer: "यह पेज यह सुनिश्चित करने के लिए reCAPTCHA से सुरक्षित है कि आप बॉट नहीं हैं।",
+    signUp: "साइन अप करें",
+    signIn: "साइन इन करें",
+    fullName: "पूरा नाम",
+    createPassword: "पासवर्ड बनाएं",
+    enterPassword: "अपना पासवर्ड दर्ज करें",
+    confirmPassword: "अपना पासवर्ड पुष्टि करें",
+    alreadyHaveAccount: "क्या आपके पास पहले से ही एक खाता है?",
+    newToWatchGPT: "WatchGPT में नया?",
   },
 };
 
